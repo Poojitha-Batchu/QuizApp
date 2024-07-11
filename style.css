@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Rubik", sans-serif;
+}
+body{
+    background-color: #45474B;
+}
+.app{
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    margin: 100px auto 0px;
+    padding: 30px;
+    max-width: 600px;
+    width: 90%;
+    border-radius: 10px;
+}
+.app h3 {
+    padding: 0px 0px 10px 0px;
+    border-bottom: 2px solid grey;   
+}
+
+.quiz{
+    margin: 10px;
+}
+
+p{
+    padding: 5px;
+    font-size: 15px;
+}
+
+.timer{
+    text-align: center;
+    /* background-color: #379777; */
+    margin-left: 80%;
+    width: 20%;
+    border-radius: 5px;
+    border: 2px solid #9CDBA6;
+}
+
+.quiz .options{
+    display: grid;
+    padding: 10px;
+}
+.quiz .options .optionBtn{
+    text-align: left;
+    padding: 10px;
+    margin: 5px 0px;
+    border: none;
+    background-color: white;
+    border-radius: 5px;
+}
+.quiz .options .optionBtn:hover{
+    background-color: #EEEDEB;
+    cursor: pointer;
+}
+
+.btns{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.btns .buttons{
+    margin: 10px;
+    padding: 10px;
+    border: none;
+    width: 20%;
+    border-radius: 5px;
+    background-color: #F4CE14;
+    display: none;
+}
+.btns .buttons:hover{
+    background-color: #379777;
+    color: white;
+    cursor: pointer;
+}
+
+ol {
+    padding-left: 20px;
+    line-height: 25px;
+}
